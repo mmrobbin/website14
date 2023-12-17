@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .subscribe-tab {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 60px;
+            right: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Simple Website</h1>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+
+    <main>
+        <h2>Welcome to Robin's website</h2>
+
+        <div class="video-container">
+            <!-- Replace the URL with the link to your video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/@marufmushfikuzzaman5426" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <h2>Check Out Our Image</h2>
+        <img src="IMG_1384.jpg" alt="My Image" width="800">
+
+        <div class="subscribe-tab" onclick="alert('Subscribe button clicked!')">
+            Subscribe
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Robin</p>
+    </footer>
+
+</body>
+</html>
